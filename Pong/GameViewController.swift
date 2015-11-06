@@ -8,6 +8,8 @@
 
 import UIKit
 import SpriteKit
+import GameController
+
 
 protocol ScenePauseDelegate {
     func didPauseGame()
@@ -18,7 +20,7 @@ protocol StartGameDelegate {
     func didUnpauseGame()
 }
 
-class GameViewController: UIViewController, ScenePauseDelegate, StartGameDelegate {
+class GameViewController: UIViewController, ScenePauseDelegate, StartGameDelegate, SceneManagerDelegate {
     
     var skView: SKView?
     var menuScene: MenuScene?
@@ -30,6 +32,7 @@ class GameViewController: UIViewController, ScenePauseDelegate, StartGameDelegat
         skView?.showsFPS = false
         skView?.showsNodeCount = false
         skView?.ignoresSiblingOrder = false
+        let gameInput = GameInput()
         showMenu()
     }
     

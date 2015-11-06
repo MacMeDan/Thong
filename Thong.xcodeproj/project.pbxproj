@@ -32,6 +32,9 @@
 		53D97B401BAA749900B58DA1 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D97B3F1BAA749900B58DA1 /* Int.swift */; };
 		53D97B421BAA74BB00B58DA1 /* SKShapeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D97B411BAA74BB00B58DA1 /* SKShapeNode.swift */; };
 		53D97B441BAA78DE00B58DA1 /* PaddleStrategyLastMinute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D97B431BAA78DE00B58DA1 /* PaddleStrategyLastMinute.swift */; };
+		F8B521851BED0D64005674CF /* ControlInputSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B521841BED0D64005674CF /* ControlInputSource.swift */; };
+		F8B521891BED0E04005674CF /* GameControllerInputSorce.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B521881BED0E04005674CF /* GameControllerInputSorce.swift */; };
+		F8B5218B1BED0E54005674CF /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5218A1BED0E54005674CF /* Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +53,7 @@
 		534F408F1BA91636007CAFF5 /* ComputerPaddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerPaddle.swift; sourceTree = "<group>"; };
 		534F40911BA91AFB007CAFF5 /* UserPaddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPaddle.swift; sourceTree = "<group>"; };
 		534F40931BA929C6007CAFF5 /* Scoreboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scoreboard.swift; sourceTree = "<group>"; };
-		537B556A1BA7C7570046339B /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537B556A1BA7C7570046339B /* Thong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537B556D1BA7C7570046339B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		537B55711BA7C7570046339B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		537B55731BA7C7570046339B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +61,7 @@
 		537B55781BA7C7570046339B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		537B557A1BA7C7570046339B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537B557C1BA7C7570046339B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		537B55811BA7C7580046339B /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537B55811BA7C7580046339B /* ThongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		537B55851BA7C7580046339B /* PongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongTests.swift; sourceTree = "<group>"; };
 		537B55871BA7C7580046339B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		537B55901BA7C7B80046339B /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
@@ -74,6 +77,9 @@
 		53D97B3F1BAA749900B58DA1 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		53D97B411BAA74BB00B58DA1 /* SKShapeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKShapeNode.swift; sourceTree = "<group>"; };
 		53D97B431BAA78DE00B58DA1 /* PaddleStrategyLastMinute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddleStrategyLastMinute.swift; sourceTree = "<group>"; };
+		F8B521841BED0D64005674CF /* ControlInputSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlInputSource.swift; sourceTree = "<group>"; };
+		F8B521881BED0E04005674CF /* GameControllerInputSorce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameControllerInputSorce.swift; sourceTree = "<group>"; };
+		F8B5218A1BED0E54005674CF /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				537B55711BA7C7570046339B /* GameScene.swift */,
+				F8B521841BED0D64005674CF /* ControlInputSource.swift */,
+				F8B5218A1BED0E54005674CF /* Controller.swift */,
+				F8B521881BED0E04005674CF /* GameControllerInputSorce.swift */,
 				53093C2F1BB231BC00F6FB0F /* MenuScene.swift */,
 				53093C311BB232B000F6FB0F /* MenuScene.sks */,
 			);
@@ -130,8 +139,8 @@
 		537B55611BA7C7570046339B = {
 			isa = PBXGroup;
 			children = (
-				537B556C1BA7C7570046339B /* Pong */,
-				537B55841BA7C7580046339B /* PongTests */,
+				537B556C1BA7C7570046339B /* Thong */,
+				537B55841BA7C7580046339B /* ThongTests */,
 				537B556B1BA7C7570046339B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,13 +148,13 @@
 		537B556B1BA7C7570046339B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				537B556A1BA7C7570046339B /* Pong.app */,
-				537B55811BA7C7580046339B /* PongTests.xctest */,
+				537B556A1BA7C7570046339B /* Thong.app */,
+				537B55811BA7C7580046339B /* ThongTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		537B556C1BA7C7570046339B /* Pong */ = {
+		537B556C1BA7C7570046339B /* Thong */ = {
 			isa = PBXGroup;
 			children = (
 				537B556D1BA7C7570046339B /* AppDelegate.swift */,
@@ -158,15 +167,17 @@
 				537B557A1BA7C7570046339B /* Assets.xcassets */,
 				537B557C1BA7C7570046339B /* Info.plist */,
 			);
+			name = Thong;
 			path = Pong;
 			sourceTree = "<group>";
 		};
-		537B55841BA7C7580046339B /* PongTests */ = {
+		537B55841BA7C7580046339B /* ThongTests */ = {
 			isa = PBXGroup;
 			children = (
 				537B55851BA7C7580046339B /* PongTests.swift */,
 				537B55871BA7C7580046339B /* Info.plist */,
 			);
+			name = ThongTests;
 			path = PongTests;
 			sourceTree = "<group>";
 		};
@@ -196,9 +207,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		537B55691BA7C7570046339B /* Pong */ = {
+		537B55691BA7C7570046339B /* Thong */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 537B558A1BA7C7580046339B /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildConfigurationList = 537B558A1BA7C7580046339B /* Build configuration list for PBXNativeTarget "Thong" */;
 			buildPhases = (
 				537B55661BA7C7570046339B /* Sources */,
 				537B55671BA7C7570046339B /* Frameworks */,
@@ -208,14 +219,14 @@
 			);
 			dependencies = (
 			);
-			name = Pong;
+			name = Thong;
 			productName = Pong;
-			productReference = 537B556A1BA7C7570046339B /* Pong.app */;
+			productReference = 537B556A1BA7C7570046339B /* Thong.app */;
 			productType = "com.apple.product-type.application";
 		};
-		537B55801BA7C7580046339B /* PongTests */ = {
+		537B55801BA7C7580046339B /* ThongTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 537B558D1BA7C7580046339B /* Build configuration list for PBXNativeTarget "PongTests" */;
+			buildConfigurationList = 537B558D1BA7C7580046339B /* Build configuration list for PBXNativeTarget "ThongTests" */;
 			buildPhases = (
 				537B557D1BA7C7580046339B /* Sources */,
 				537B557E1BA7C7580046339B /* Frameworks */,
@@ -226,9 +237,9 @@
 			dependencies = (
 				537B55831BA7C7580046339B /* PBXTargetDependency */,
 			);
-			name = PongTests;
+			name = ThongTests;
 			productName = PongTests;
-			productReference = 537B55811BA7C7580046339B /* PongTests.xctest */;
+			productReference = 537B55811BA7C7580046339B /* ThongTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -242,7 +253,7 @@
 				TargetAttributes = {
 					537B55691BA7C7570046339B = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = AM7JW84RW4;
+						DevelopmentTeam = 23A3RV3GPB;
 					};
 					537B55801BA7C7580046339B = {
 						CreatedOnToolsVersion = 7.1;
@@ -250,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 537B55651BA7C7570046339B /* Build configuration list for PBXProject "Pong" */;
+			buildConfigurationList = 537B55651BA7C7570046339B /* Build configuration list for PBXProject "Thong" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -263,8 +274,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				537B55691BA7C7570046339B /* Pong */,
-				537B55801BA7C7580046339B /* PongTests */,
+				537B55691BA7C7570046339B /* Thong */,
+				537B55801BA7C7580046339B /* ThongTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +309,7 @@
 				53A653A41BB38DD300E9CBD3 /* CGFloat.swift in Sources */,
 				53093C301BB231BC00F6FB0F /* MenuScene.swift in Sources */,
 				534F40901BA91636007CAFF5 /* ComputerPaddle.swift in Sources */,
+				F8B521851BED0D64005674CF /* ControlInputSource.swift in Sources */,
 				53D97B421BAA74BB00B58DA1 /* SKShapeNode.swift in Sources */,
 				53D97B441BAA78DE00B58DA1 /* PaddleStrategyLastMinute.swift in Sources */,
 				537B55931BA7CAFD0046339B /* Paddle.swift in Sources */,
@@ -309,8 +321,10 @@
 				537B55721BA7C7570046339B /* GameScene.swift in Sources */,
 				53C0512A1BAC9FAB00C96407 /* NSRange.swift in Sources */,
 				537B55741BA7C7570046339B /* GameViewController.swift in Sources */,
+				F8B521891BED0E04005674CF /* GameControllerInputSorce.swift in Sources */,
 				53D97B381BAA6F2400B58DA1 /* PaddleStrategySimple.swift in Sources */,
 				537B55971BA7D3150046339B /* PositionHelper.swift in Sources */,
+				F8B5218B1BED0E54005674CF /* Controller.swift in Sources */,
 				53D97B3A1BAA6F2D00B58DA1 /* PaddleStrategyUnbeatable.swift in Sources */,
 				53D97B401BAA749900B58DA1 /* Int.swift in Sources */,
 				537B556E1BA7C7570046339B /* AppDelegate.swift in Sources */,
@@ -331,7 +345,7 @@
 /* Begin PBXTargetDependency section */
 		537B55831BA7C7580046339B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 537B55691BA7C7570046339B /* Pong */;
+			target = 537B55691BA7C7570046339B /* Thong */;
 			targetProxy = 537B55821BA7C7580046339B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,7 +451,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aerickson.Pong;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macme.Thong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -451,7 +465,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aerickson.Pong;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macme.Thong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -465,8 +479,8 @@
 				INFOPLIST_FILE = PongTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aerickson.PongTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+				PRODUCT_NAME = ThongTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thong.app/Thong";
 			};
 			name = Debug;
 		};
@@ -477,15 +491,15 @@
 				INFOPLIST_FILE = PongTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aerickson.PongTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+				PRODUCT_NAME = ThongTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thong.app/Thong";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		537B55651BA7C7570046339B /* Build configuration list for PBXProject "Pong" */ = {
+		537B55651BA7C7570046339B /* Build configuration list for PBXProject "Thong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				537B55881BA7C7580046339B /* Debug */,
@@ -494,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		537B558A1BA7C7580046339B /* Build configuration list for PBXNativeTarget "Pong" */ = {
+		537B558A1BA7C7580046339B /* Build configuration list for PBXNativeTarget "Thong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				537B558B1BA7C7580046339B /* Debug */,
@@ -503,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		537B558D1BA7C7580046339B /* Build configuration list for PBXNativeTarget "PongTests" */ = {
+		537B558D1BA7C7580046339B /* Build configuration list for PBXNativeTarget "ThongTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				537B558E1BA7C7580046339B /* Debug */,
